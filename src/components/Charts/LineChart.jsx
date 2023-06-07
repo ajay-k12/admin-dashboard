@@ -1,5 +1,5 @@
 import React from 'react'
-import { ChartComponent, SeriesCollectionDirective, seriesDirective, Inject, DateTime, Legend, Tooltip, LineSeries, SeriesDirective } from '@syncfusion/ej2-react-charts'
+import { ChartComponent, SeriesCollectionDirective, Inject, DateTime, Legend, Tooltip, LineSeries, SeriesDirective } from '@syncfusion/ej2-react-charts'
 import { lineCustomSeries, LinePrimaryXAxis, LinePrimaryYAxis } from '../../data/dummy'
 import { useStateContext } from '../../contexts/ContextProvider'
 

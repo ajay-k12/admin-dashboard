@@ -23,7 +23,7 @@ function UserProfile() {
           </button>
       </div>
       <div className='flex gap-6 border-b-1'>
-            <img className='rounded-full w-20 mb-4 mt-4' src={avatar}/>
+            <img className='rounded-full w-20 mb-4 mt-4' src={avatar} alt=''/>
             <div className='mt-5'>
               <p className='font-semibold text-xl dark:text-gray-200 mb-1'>Ajay Singh Raj</p>
               <p className=' text-gray-600 text-sm dark:text-gray-200'>Administrator</p>

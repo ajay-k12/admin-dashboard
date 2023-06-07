@@ -20,13 +20,14 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
 )
 
 function Navbar() {
-  const { activeMenu, setActiveMenu, isClicked, setIsClicked, handleClick, screenSize, setScreenSize, currentColor, setCurrCart } = useStateContext();
+  const { setActiveMenu, isClicked, handleClick, screenSize, setScreenSize, currentColor } = useStateContext();
 
   useEffect(() => {
     const handleResize = () => setScreenSize(window.innerWidth);
     window.addEventListener('resize', handleResize);
     handleResize();
     return () => window.removeEventListener('resize', handleResize);
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
@@ -35,6 +36,7 @@ function Navbar() {
     } else {
       setActiveMenu(true);
     }
+    // eslint-disable-next-line
   }, [screenSize]);
 
   return (
@@ -68,7 +70,7 @@ function Navbar() {
         />
         <TooltipComponent content="Profile" position="BottomCenter">
            <div className='flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg' onClick={() => handleClick('userProfile')}>
-            <img className='rounded-full w-8 h-8' src={avatar} />
+            <img className='rounded-full w-8 h-8' src={avatar} alt=''/>
             <p>
               <span className='text-gray-400 text-14'>Hi,</span> {' '}
               <span className='text-gray-400 font-bold ml-1 text-14'>Ajay</span>

@@ -24,7 +24,7 @@ function Chat() {
       {chatData.map((item, index) => (
         <div key={index}>
           <div className='flex items-center gap-5 p-2 border-b-1'>
-            <img className='m-2 h-10 w-10 rounded-full' src={item.image} />
+            <img className='m-2 h-10 w-10 rounded-full' src={item.image} alt=''/>
             <div >
               <p className='font-semibold text-base mb-1 dark:text-gray-200'>{item.message}</p>
               <p className='text-gray-600 text-sm dark:text-gray-300'>{item.desc}</p>
