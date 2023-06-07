@@ -1,3 +1,22 @@
+This is a self-made project.
+
+Live Demo: https://cute-lollipop-54fe47.netlify.app/
+
+I do not claim ownership of any of the images used in this project. If you want me to remove the images then please contact me and I will take action immediately.
+
+![img1](https://github.com/ajay-k12/admin-dashboard/assets/108744630/21b5d107-ad09-4f01-839f-4ee168c6c66a)
+
+
+
+![img2](https://github.com/ajay-k12/admin-dashboard/assets/108744630/e0dd8c4a-897d-4fd9-87ca-4597741ea935)
+
+
+
+![img3](https://github.com/ajay-k12/admin-dashboard/assets/108744630/9a315ecc-9aa5-41c6-8001-d69bc5cfe706)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
